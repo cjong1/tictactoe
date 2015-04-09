@@ -1,0 +1,80 @@
+#board {
+  background: #ccc;
+  width: 300px; height: 300px;
+}
+#board .space {
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+  width: 100px; height: 100px;
+}
+#board .space:hover {
+  cursor: pointer;
+  background: #ddd;
+}
+
+/* Change background picture based on class name */
+#board .space.player1 {
+  background: url("img/veggies.jpg");
+  background-size: 100% 100%;
+}
+#board .space.player2 {
+  background: url("img/junkfood.jpg");
+  background-size: 100% 100%;
+}
+.unclickable {
+  pointer-events: none;
+}
+
+#oldPlayersButton{
+  display: inline-block;
+  height: 20px;
+  width: 220px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  margin-top:2px;
+}
+
+#oldPlayersButton:hover{
+  cursor: pointer;
+  background: blue;
+}
+
+#newPlayersButton{
+  display: inline-block;
+  height: 20px;
+  width: 200px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  margin-top:2px;
+}
+
+#newPlayersButton:hover{
+  cursor: pointer;
+  background: blue;
+}
+
+#avatarButton{
+  display: inline-block;
+  height: 20px;
+  width: 240px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  margin-top:2px;
+}
+
+#avatarButton:hover{
+  cursor: pointer;
+  background: blue;
+}
